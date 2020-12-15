@@ -12,8 +12,9 @@
     <string name="ajouter">Ajouter</string>
 
     <string name="km">Km</string>
-    <string name="nuit">Nuitées</string>
+    <string name="nuit">nuitées</string>
     <string name="etape">étapes</string>
+    <string name="repas">repas</string>
 
     <string name="plus">+</string>
     <string name="moins">-</string>
@@ -24,6 +25,7 @@
     <string name="title_frais_hf">Frais hors forfait</string>
     <string name="title_frais_n">Frais de nuitées</string>
     <string name="title_frais_etape">Frais d\'étapes</string>
+    <string name="title_frais_repas">Frais de repas</string>
 
     <string name="motif">Motif :</string>
 

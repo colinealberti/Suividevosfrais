@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_etapes"
+    android:id="@+id/activity_repas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentStart="true"
@@ -9,7 +9,7 @@
     android:layout_alignParentBottom="true"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context=".EtapeActivity">
+    tools:context=".RepasActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,13 +28,13 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imgEtapeReturn"
+                android:id="@+id/imgRepasReturn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="end"
                 android:layout_weight="1"
-                android:contentDescription="@string/icone_frais_etape"
-                android:src="@drawable/frais_etape" />
+                android:contentDescription="@string/icone_frais_repas"
+                android:src="@drawable/frais_repas" />
         </LinearLayout>
 
         <LinearLayout
@@ -54,7 +54,7 @@
                 android:lines="1"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="@string/title_frais_etape"
+                android:text="@string/title_frais_repas"
                 android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
@@ -68,7 +68,7 @@
         android:orientation="vertical">
 
         <DatePicker
-            android:id="@+id/datEtape"
+            android:id="@+id/datRepas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -92,7 +92,7 @@
             tools:ignore="RtlSymmetry">
 
             <EditText
-                android:id="@+id/txtEtape"
+                android:id="@+id/txtRepas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -115,12 +115,12 @@
             tools:ignore="RtlSymmetry">
 
             <TextView
-                android:id="@+id/lblEtape"
+                android:id="@+id/lblRepas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:labelFor="@+id/txtEtape"
-                android:text="@string/etape"
+                android:labelFor="@+id/txtRepas"
+                android:text="@string/repas"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
         </LinearLayout>
@@ -134,7 +134,7 @@
             tools:ignore="RtlSymmetry">
 
             <Button
-                android:id="@+id/cmdEtapePlus"
+                android:id="@+id/cmdRepasPlus"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:gravity="center"
@@ -142,7 +142,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/cmdEtapeMoins"
+                android:id="@+id/cmdRepasMoins"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:gravity="center"
@@ -160,7 +160,7 @@
         android:paddingTop="20dp">
 
         <Button
-            android:id="@+id/cmdEtapeValider"
+            android:id="@+id/cmdRepasValider"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
